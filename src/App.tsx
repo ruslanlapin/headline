@@ -10,10 +10,11 @@ import {Button1} from "./components/Button1.styled";
 import {Button2} from "./components/Button2.styled";
 import {TextButton1} from "./components/TextButton1.styled";
 import {TextButton2} from "./components/TextButton2.styled";
+import {AppWrapper} from "./components/AppWrapper";
 
 function App() {
   return (
-    <div className="App">
+    <AppWrapper>
         <CardStyled>
             <ContainerStyled>
                 <ImgStyleStyled></ImgStyleStyled>
@@ -33,7 +34,7 @@ function App() {
         </CardStyled>
 
 
-    </div>
+    </AppWrapper>
   );
 }
 
